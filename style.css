@@ -1,0 +1,82 @@
+:root{
+    --red:#E50914;
+    --black:#141414;
+}
+
+/* cachorro zika
+╥━━━━━━━━╭━━╮━━┳
+╢╭╮╭━━━━━┫┃▋▋┣
+╢┃╰┫┈┈┈┈┈┃┃┈┈╰┫┣
+╢╰━┫┈┈┈┈┈╰╯╰┳━╯┣
+╢┊┊┃┏┳┳━━┓┏┳┫┊┊┣
+╨━━┗┛┗┛━━┗┛┗┛━━┻*/
+body{
+    background-color: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+    color: #eee;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--red);
+    font-family: 'Arial Black', Times;
+    font-size: 35px;
+    margin-left: 7.5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    margin-right: 12px;
+}
+
+header nav a:hover{
+    color: #aaa;
+    transition: 0.5s;
+}
+
+.emalta{
+
+    font-size: 16pix;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('recursos/lua.jpg');
+
+    width: 100%;
+    height: 30rem;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sinopse{
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.titulo{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #eee;
+    padding: 15px 30px;
+    font-size: 15px;
+}
